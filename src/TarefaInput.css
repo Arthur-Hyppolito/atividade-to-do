@@ -1,0 +1,13 @@
+.tarefa-input {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+  }
+  
