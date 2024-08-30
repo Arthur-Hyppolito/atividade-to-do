@@ -8,14 +8,27 @@
     margin: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
   }
   
   .tarefa-item.concluida {
-    text-decoration: line-through;
+    color: #888;
   }
   
   button {
     margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #e74c3c; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c0392b; 
   }
   

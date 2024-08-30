@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import TarefaInput from './TarefaInput';
 import ListaTarefas from './ListaTarefas';
-import './TarefaInput.css'
-import'./ListaTarefas.css'
 
 function App() {
   const [tarefas, setTarefas] = useState([]);

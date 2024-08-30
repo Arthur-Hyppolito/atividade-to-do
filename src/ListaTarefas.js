@@ -11,7 +11,7 @@ function ListaTarefas({ tarefas, marcarComoConcluida, removerTarefa }) {
             checked={tarefa.concluida}
             onChange={() => marcarComoConcluida(index)}
           />
-          {tarefa.texto}
+          <span>{tarefa.texto}</span>
           <button onClick={() => removerTarefa(index)}>Remover</button>
         </li>
       ))}
